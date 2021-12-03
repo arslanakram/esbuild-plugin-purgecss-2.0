@@ -13,11 +13,10 @@ module.exports = function purgecssPlugin(options) {
                 const outputKeys = Object.keys(args.metafile.outputs);
                 const genFilter = (postfix) => (k) => k.endsWith(postfix);
 
-                const content = outputKeys.filter(genFilter('.js'));
                 const css = outputKeys.filter(genFilter('.css'));
                 const opts = options ? options : {};
 
-                const res = await new PurgeCSS().purge({ ...opts, content, css });
+                const res = await new PurgeCSS().purge({ ...opts, css: css });
 
                 for (let index = 0; index < res.length; index++) {
                     const { file, css } = res[index];
