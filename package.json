@@ -13,19 +13,19 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/arslanakram/esbuild-plugin-purgecss.git"
+        "url": "git+https://github.com/arslanakram/esbuild-plugin-purgecss-2.0"
     },
     "keywords": [
         "esbuild",
         "plugin",
         "purgecss"
     ],
-    "author": "arslanakram",
+    "author": "arslanhawn",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/arslanakram/esbuild-plugin-purgecss/issues"
+        "url": "https://github.com/arslanakram/esbuild-plugin-purgecss-2.0/issues"
     },
-    "homepage": "https://github.com/arslanakram/esbuild-plugin-purgecss#readme",
+    "homepage": "https://github.com/arslanakram/esbuild-plugin-purgecss-2.0#readme",
     "devDependencies": {
         "esbuild": "^0.13.12"
     },
