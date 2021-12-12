@@ -6,9 +6,13 @@
 
 > based on [esbuild-plugin-purgecss](https://github.com/GitHubJiKe/esbuild-plugin-purgecss)
 
-## description
+## Description
 
-This allows you to pass content (html/css) in the plugin
+This allows you to pass content (html/css) in the plugin.
+
+## Why I created this?
+
+Please read here: [How To Setup Custom ESBuild with SCSS, PurgeCSS & LiveServer?](https://stackoverflow.com/questions/70325815/how-to-setup-custom-esbuild-with-scss-purgecss-liveserver)
 
 ## Usage
 
@@ -35,3 +39,8 @@ esbuild.build({
     ]
 })
 ```
+
+## Complete Example on How to Setup a Custom ESBuild with SCSS, PurgeCSS & LiveServer?
+
+Please refer to my github repository:
+[custom-esbuild-with-scss-purgecss-and-liveserver](https://github.com/arslanakram/custom-esbuild-with-scss-purgecss-and-liveserver)
